@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="3" lineNum="9" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="3" lineNum="10" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="3" lineNum="11" pc="268435482" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="3" lineNum="13" pc="268435502" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="4" lineNum="16" pc="268435546" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="4" lineNum="17" pc="268435550" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="4" lineNum="18" pc="268435567" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="4" lineNum="19" pc="268435578" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="4" lineNum="20" pc="268435614" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="4" lineNum="21" pc="268435647" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="4" lineNum="22" pc="268435683" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="4" lineNum="23" pc="268435700" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalNotificationCount.mc" id="4" lineNum="26" pc="268435775" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalBackground.mc" id="6" lineNum="7" pc="268435868" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalBackground.mc" id="6" lineNum="8" pc="268435872" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalBackground.mc" id="6" lineNum="12" pc="268435893" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalBackground.mc" id="7" lineNum="15" pc="268435914" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalBackground.mc" id="7" lineNum="17" pc="268435918" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalBackground.mc" id="7" lineNum="18" pc="268435971" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalApp.mc" id="9" lineNum="6" pc="268435984" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalApp.mc" id="9" lineNum="7" pc="268435988" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalApp.mc" id="10" lineNum="11" pc="268436007" symbol="onStart"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalApp.mc" id="11" lineNum="15" pc="268436012" symbol="onStop"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalApp.mc" id="12" lineNum="19" pc="268436017" symbol="getInitialView"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalApp.mc" id="12" lineNum="20" pc="268436021" symbol="getInitialView"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalApp.mc" id="13" lineNum="24" pc="268436059" symbol="onSettingsChanged"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalApp.mc" id="13" lineNum="25" pc="268436063" symbol="onSettingsChanged"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="15" lineNum="20" pc="268436080" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="15" lineNum="21" pc="268436084" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="15" lineNum="23" pc="268436102" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="15" lineNum="24" pc="268436145" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="27" pc="268436189" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="28" pc="268436193" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="29" pc="268436210" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="31" pc="268436229" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="32" pc="268436239" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="34" pc="268436249" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="35" pc="268436262" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="36" pc="268436293" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="39" pc="268436327" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="41" pc="268436356" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="42" pc="268436380" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="45" pc="268436407" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="47" pc="268436436" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="48" pc="268436449" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="52" pc="268436465" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="53" pc="268436496" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="55" pc="268436505" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="16" lineNum="56" pc="268436530" symbol="updateLocation"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="17" lineNum="60" pc="268436559" symbol="updateSunTimes"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="17" lineNum="61" pc="268436563" symbol="updateSunTimes"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="17" lineNum="63" pc="268436575" symbol="updateSunTimes"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="17" lineNum="64" pc="268436618" symbol="updateSunTimes"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="17" lineNum="67" pc="268436622" symbol="updateSunTimes"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="17" lineNum="68" pc="268436692" symbol="updateSunTimes"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="17" lineNum="69" pc="268436735" symbol="updateSunTimes"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="17" lineNum="71" pc="268436825" symbol="updateSunTimes"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="18" lineNum="74" pc="268436849" symbol="shortHour"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="18" lineNum="75" pc="268436853" symbol="shortHour"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="18" lineNum="76" pc="268436878" symbol="shortHour"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="18" lineNum="77" pc="268436889" symbol="shortHour"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="18" lineNum="81" pc="268436905" symbol="shortHour"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="19" lineNum="85" pc="268436909" symbol="onLayout"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="19" lineNum="86" pc="268436913" symbol="onLayout"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="20" lineNum="92" pc="268436951" symbol="onShow"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="96" pc="268436956" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="97" pc="268436960" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="100" pc="268436977" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="101" pc="268436994" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="104" pc="268437011" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="105" pc="268437035" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="106" pc="268437059" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="107" pc="268437087" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="109" pc="268437101" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="110" pc="268437125" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="111" pc="268437153" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="112" pc="268437198" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="114" pc="268437275" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="115" pc="268437299" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="116" pc="268437327" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="118" pc="268437361" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="119" pc="268437405" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="120" pc="268437429" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="121" pc="268437457" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="123" pc="268437477" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="124" pc="268437501" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="125" pc="268437529" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="128" pc="268437563" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="129" pc="268437580" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="130" pc="268437604" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="131" pc="268437632" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="132" pc="268437643" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="134" pc="268437663" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="135" pc="268437680" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="137" pc="268437700" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="138" pc="268437717" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="140" pc="268437737" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="141" pc="268437754" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="144" pc="268437774" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="148" pc="268437791" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="149" pc="268437815" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="150" pc="268437843" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="151" pc="268437854" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="154" pc="268437874" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="158" pc="268437891" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="160" pc="268437903" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="161" pc="268437927" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="163" pc="268437955" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="164" pc="268437972" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="165" pc="268438008" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="166" pc="268438059" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="168" pc="268438157" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="169" pc="268438193" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="170" pc="268438244" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="173" pc="268438342" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="174" pc="268438393" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="178" pc="268438488" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="179" pc="268438507" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="180" pc="268438531" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="181" pc="268438559" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="182" pc="268438572" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="185" pc="268438592" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="188" pc="268438646" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="189" pc="268438659" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="193" pc="268438675" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="21" lineNum="194" pc="268438687" symbol="onUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="197" pc="268438708" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="198" pc="268438712" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="201" pc="268438729" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="202" pc="268438746" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="203" pc="268438778" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="204" pc="268438818" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="205" pc="268438850" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="206" pc="268438894" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="209" pc="268438958" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="210" pc="268438977" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="211" pc="268438999" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="212" pc="268439039" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="213" pc="268439055" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="215" pc="268439068" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="216" pc="268439100" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="217" pc="268439140" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="218" pc="268439172" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="219" pc="268439185" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="22" lineNum="220" pc="268439229" symbol="onPartialUpdate"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="23" lineNum="228" pc="268439333" symbol="onHide"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="24" lineNum="232" pc="268439338" symbol="onExitSleep"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalView.mc" id="25" lineNum="236" pc="268439343" symbol="onEnterSleep"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="27" lineNum="15" pc="268439348" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="27" lineNum="16" pc="268439352" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="27" lineNum="17" pc="268439374" symbol="initialize"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="20" pc="268439395" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="21" pc="268439399" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="22" pc="268439416" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="24" pc="268439433" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="25" pc="268439451" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="27" pc="268439469" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="28" pc="268439516" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="37" pc="268439622" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="38" pc="268439632" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="40" pc="268439645" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="41" pc="268439698" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="44" pc="268439702" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="46" pc="268439712" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="47" pc="268439731" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="48" pc="268439747" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="49" pc="268439759" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="52" pc="268439776" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="53" pc="268439817" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="54" pc="268439876" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="57" pc="268439935" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="58" pc="268440021" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="59" pc="268440107" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="62" pc="268440211" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="64" pc="268440261" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="65" pc="268440261" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="67" pc="268440261" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="69" pc="268440277" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="70" pc="268440290" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="72" pc="268440303" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="73" pc="268440328" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="76" pc="268440332" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="77" pc="268440340" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="80" pc="268440347" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="83" pc="268440369" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="84" pc="268440382" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="85" pc="268440382" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="86" pc="268440382" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="87" pc="268440385" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="89" pc="268440388" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="90" pc="268440395" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="91" pc="268440419" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="92" pc="268440422" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="95" pc="268440428" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="96" pc="268440467" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="98" pc="268440498" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="99" pc="268440515" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="102" pc="268440534" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="105" pc="268440554" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="106" pc="268440558" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="28" lineNum="109" pc="268440562" symbol="update"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="29" lineNum="113" pc="268440579" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="29" lineNum="114" pc="268440583" symbol="draw"/>
+<entry filename="/Users/burch/workspace/HiVisDigital/source/HiVisDigitalHeartRateGraph.mc" id="29" lineNum="115" pc="268440595" symbol="draw"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="99" pc="268440632" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="101" pc="268440644" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="102" pc="268440681" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="103" pc="268440718" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="104" pc="268440755" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="107" pc="268440792" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="108" pc="268440816" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="109" pc="268440967" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="110" pc="268440982" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="111" pc="268441034" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="112" pc="268441170" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="113" pc="268441226" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="114" pc="268441364" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="115" pc="268441379" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="116" pc="268441431" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="117" pc="268441541" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="118" pc="268441664" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="119" pc="268441787" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="120" pc="268441910" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="121" pc="268442033" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="122" pc="268442115" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="123" pc="268442266" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="124" pc="268442281" symbol="WatchFace"/>
+<entry filename="/Applications/Eclipse.app/Contents/MacOS/Rez" id="36" lineNum="127" pc="268442333" symbol="WatchFace"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="16" pc="268442461" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="18" pc="268442473" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="33" pc="268442622" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="38" pc="268442678" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="39" pc="268442712" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="41" pc="268442725" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="42" pc="268442764" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="44" pc="268442774" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="45" pc="268442807" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="39" lineNum="48" pc="268442853" symbol="sunriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="40" lineNum="51" pc="268442857" symbol="sunPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="40" lineNum="52" pc="268442869" symbol="sunPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="40" lineNum="58" pc="268443013" symbol="sunPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="40" lineNum="58" pc="268443024" symbol="sunPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="40" lineNum="59" pc="268443037" symbol="sunPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="41" lineNum="66" pc="268443187" symbol="sunCoords"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="41" lineNum="67" pc="268443199" symbol="sunCoords"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="41" lineNum="69" pc="268443229" symbol="sunCoords"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="42" lineNum="74" pc="268443289" symbol="siderealTime"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="42" lineNum="75" pc="268443301" symbol="siderealTime"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="78" pc="268443326" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="79" pc="268443338" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="80" pc="268443342" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="83" pc="268443383" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="84" pc="268443391" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="85" pc="268443409" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="86" pc="268443444" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="87" pc="268443485" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="88" pc="268443501" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="89" pc="268443514" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="90" pc="268443533" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="91" pc="268443549" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="92" pc="268443568" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="93" pc="268443575" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="94" pc="268443586" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="95" pc="268443623" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="96" pc="268443630" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="97" pc="268443637" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="97" pc="268443657" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="98" pc="268443670" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="98" pc="268443690" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="99" pc="268443703" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="99" pc="268443714" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="101" pc="268443724" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="102" pc="268443735" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="102" pc="268443746" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="103" pc="268443756" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="105" pc="268443766" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="106" pc="268443777" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="107" pc="268443800" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="109" pc="268443826" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="109" pc="268443843" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="110" pc="268443849" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="112" pc="268443866" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="112" pc="268443871" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="113" pc="268443906" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="114" pc="268443924" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="114" pc="268443929" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="115" pc="268443964" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="43" lineNum="116" pc="268443982" symbol="moonriseSet"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="44" lineNum="118" pc="268443986" symbol="getMoonPosition"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="44" lineNum="119" pc="268443998" symbol="getMoonPosition"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="44" lineNum="125" pc="268444121" symbol="getMoonPosition"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="44" lineNum="126" pc="268444139" symbol="getMoonPosition"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="45" lineNum="128" pc="268444143" symbol="hoursLater"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="45" lineNum="129" pc="268444155" symbol="hoursLater"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="46" lineNum="131" pc="268444203" symbol="moonCoords"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="46" lineNum="132" pc="268444215" symbol="moonCoords"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="46" lineNum="138" pc="268444365" symbol="moonCoords"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="47" lineNum="145" pc="268444429" symbol="moonPhaseFract"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="47" lineNum="146" pc="268444441" symbol="moonPhaseFract"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="47" lineNum="154" pc="268445033" symbol="moonPhaseFract"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="48" lineNum="160" pc="268445150" symbol="moonPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="48" lineNum="161" pc="268445162" symbol="moonPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="48" lineNum="167" pc="268445285" symbol="moonPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="48" lineNum="168" pc="268445303" symbol="moonPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="48" lineNum="169" pc="268445357" symbol="moonPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="48" lineNum="169" pc="268445368" symbol="moonPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="48" lineNum="170" pc="268445381" symbol="moonPSN"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="49" lineNum="178" pc="268445502" symbol="toDays"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="49" lineNum="179" pc="268445514" symbol="toDays"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="50" lineNum="181" pc="268445535" symbol="fromJulian"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="50" lineNum="182" pc="268445547" symbol="fromJulian"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="51" lineNum="184" pc="268445595" symbol="toJulian"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="51" lineNum="185" pc="268445607" symbol="toJulian"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="52" lineNum="187" pc="268445647" symbol="julianCycle"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="52" lineNum="188" pc="268445659" symbol="julianCycle"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="53" lineNum="190" pc="268445706" symbol="approxTransit"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="53" lineNum="191" pc="268445718" symbol="approxTransit"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="54" lineNum="193" pc="268445753" symbol="solarMeanAnomaly"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="54" lineNum="194" pc="268445765" symbol="solarMeanAnomaly"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="55" lineNum="196" pc="268445787" symbol="eclipticLongitude"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="55" lineNum="197" pc="268445799" symbol="eclipticLongitude"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="55" lineNum="199" pc="268445897" symbol="eclipticLongitude"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="56" lineNum="201" pc="268445920" symbol="declination"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="56" lineNum="202" pc="268445932" symbol="declination"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="57" lineNum="204" pc="268446014" symbol="rightAscension"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="57" lineNum="205" pc="268446026" symbol="rightAscension"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="58" lineNum="207" pc="268446107" symbol="azimuth"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="58" lineNum="208" pc="268446119" symbol="azimuth"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="59" lineNum="210" pc="268446224" symbol="altitude"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="59" lineNum="211" pc="268446236" symbol="altitude"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="60" lineNum="213" pc="268446342" symbol="solarTransitJ"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="60" lineNum="214" pc="268446354" symbol="solarTransitJ"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="61" lineNum="216" pc="268446418" symbol="getSetJ"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="61" lineNum="217" pc="268446430" symbol="getSetJ"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="61" lineNum="219" pc="268446468" symbol="getSetJ"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="62" lineNum="221" pc="268446487" symbol="hourAngle"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="62" lineNum="222" pc="268446499" symbol="hourAngle"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="63" lineNum="224" pc="268446605" symbol="astroRefraction"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="63" lineNum="225" pc="268446617" symbol="astroRefraction"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="63" lineNum="225" pc="268446628" symbol="astroRefraction"/>
+<entry filename="/private/var/folders/nx/wjxdtqln4kgb5gmsbb4sj1sm0000gr/T/SunMoon-1.0.0.barrel4277841177368917771/content/SunMoon.mc" id="63" lineNum="226" pc="268446638" symbol="astroRefraction"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="143" method="true" symbol="shortHour"/>
+<entry field="true" id="52" symbol="xFF55AA"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="34" symbol="xFFAA00"/>
+<entry id="110" method="true" symbol="moonriseSet"/>
+<entry field="true" id="60" symbol="xFF00FF"/>
+<entry id="19" object="true" symbol="HiVisDigitalView"/>
+<entry field="true" id="69" symbol="x00FF55"/>
+<entry field="true" id="8389306" symbol="lon"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="116" method="true" symbol="toDays"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="42" symbol="xFF00AA"/>
+<entry id="123" method="true" symbol="declination"/>
+<entry field="true" id="137" symbol="last_hr"/>
+<entry id="8390097" method="true" symbol="onPartialUpdate"/>
+<entry field="true" id="47" symbol="x00FF00"/>
+<entry field="true" id="75" symbol="x0055FF"/>
+<entry field="true" id="133" symbol="buffer"/>
+<entry field="true" id="53" symbol="x00AA55"/>
+<entry field="true" id="32" symbol="BatteryColor"/>
+<entry field="true" id="51" symbol="xFF5555"/>
+<entry id="112" method="true" symbol="hoursLater"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="50" symbol="x0055AA"/>
+<entry field="true" id="94" symbol="x55FFFF"/>
+<entry id="20" object="true" symbol="HeartRateGraph"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry field="true" id="33" symbol="x00AA00"/>
+<entry field="true" id="59" symbol="x0000FF"/>
+<entry id="129" method="true" symbol="astroRefraction"/>
+<entry field="true" id="31" symbol="xFF5500"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="8389305" symbol="lat"/>
+<entry field="true" id="45" symbol="HeartRateGraphColor"/>
+<entry field="true" id="41" symbol="xFF0055"/>
+<entry field="true" id="36" symbol="x55FFAA"/>
+<entry id="120" method="true" symbol="approxTransit"/>
+<entry field="true" id="40" symbol="x0000AA"/>
+<entry field="true" id="46" symbol="x55AAFF"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="142" method="true" symbol="updateSunTimes"/>
+<entry id="121" method="true" symbol="solarMeanAnomaly"/>
+<entry field="true" id="103" symbol="SecondsColor"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="101" symbol="xFF0000"/>
+<entry id="141" method="true" symbol="updateLocation"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="68" symbol="x55AAAA"/>
+<entry field="true" id="49" symbol="x005555"/>
+<entry id="17" object="true" symbol="NotificationCount"/>
+<entry id="117" method="true" symbol="fromJulian"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="127" method="true" symbol="getSetJ"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="135" symbol="font_hr"/>
+<entry id="18" object="true" symbol="HiVisDigitalApp"/>
+<entry field="true" id="30" symbol="x005500"/>
+<entry field="true" id="35" symbol="x55FF55"/>
+<entry field="true" id="39" symbol="x000055"/>
+<entry field="true" id="80" symbol="BluetoothColor"/>
+<entry field="true" id="104" symbol="BackgroundColor"/>
+<entry field="true" id="105" symbol="times"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="27" symbol="id_suunto_font_25px"/>
+<entry field="true" id="57" symbol="x55FF00"/>
+<entry field="true" id="43" symbol="x5555FF"/>
+<entry field="true" id="77" symbol="AppName"/>
+<entry id="119" method="true" symbol="julianCycle"/>
+<entry field="true" id="100" symbol="x000000"/>
+<entry field="true" id="67" symbol="x55AA55"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry id="122" method="true" symbol="eclipticLongitude"/>
+<entry field="true" id="136" symbol="since_last_hr"/>
+<entry field="true" id="139" symbol="today_suntimes"/>
+<entry id="108" method="true" symbol="sunCoords"/>
+<entry id="107" method="true" symbol="sunPSN"/>
+<entry field="true" id="63" symbol="x5555AA"/>
+<entry field="true" id="38" symbol="xAAFFFF"/>
+<entry field="true" id="89" symbol="x55AA00"/>
+<entry field="true" id="29" symbol="x5500FF"/>
+<entry field="true" id="138" symbol="last_suntimes"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry field="true" id="98" symbol="xAAFFAA"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="85" symbol="DayOfWeekColor"/>
+<entry field="true" id="96" symbol="DayOfMonthColor"/>
+<entry field="true" id="24" symbol="LauncherIcon"/>
+<entry field="true" id="95" symbol="xAAAAFF"/>
+<entry field="true" id="93" symbol="x5500AA"/>
+<entry id="126" method="true" symbol="solarTransitJ"/>
+<entry id="115" method="true" symbol="moonPSN"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="8389660" symbol="palette"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="134" symbol="font_seconds"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="26" symbol="id_suunto_font_40px"/>
+<entry id="106" method="true" symbol="sunriseSet"/>
+<entry id="111" method="true" symbol="getMoonPosition"/>
+<entry field="true" id="82" symbol="xAAAAAA"/>
+<entry id="8390514" method="true" symbol="update"/>
+<entry field="true" id="62" symbol="x555555"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="118" method="true" symbol="toJulian"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8388963" method="true" symbol="altitude"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="61" symbol="HourColor"/>
+<entry field="true" id="97" symbol="xAAFF55"/>
+<entry field="true" id="84" symbol="x555500"/>
+<entry field="true" id="92" symbol="x550055"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389348" symbol="font"/>
+<entry field="true" id="83" symbol="xAAFF00"/>
+<entry field="true" id="102" symbol="xAA55FF"/>
+<entry id="8389347" symbol="color"/>
+<entry id="125" method="true" symbol="azimuth"/>
+<entry field="true" id="81" symbol="xAAAA55"/>
+<entry field="true" id="74" symbol="x550000"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry field="true" id="37" symbol="HeartRateColor"/>
+<entry field="true" id="132" symbol="lastupdate"/>
+<entry field="true" id="88" symbol="xAA55AA"/>
+<entry field="true" id="91" symbol="xFFFFFF"/>
+<entry field="true" id="58" symbol="xAAAA00"/>
+<entry field="true" id="86" symbol="xAA00FF"/>
+<entry id="23" module="true" symbol="Layouts"/>
+<entry field="true" id="72" symbol="xFFFFAA"/>
+<entry field="true" id="28" symbol="id_icons_25px"/>
+<entry field="true" id="65" symbol="xAA00AA"/>
+<entry field="true" id="79" symbol="xFFAAFF"/>
+<entry field="true" id="99" symbol="MinutesColor"/>
+<entry id="128" method="true" symbol="hourAngle"/>
+<entry field="true" id="140" symbol="tomorrow_suntimes"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="56" symbol="xFFAAAA"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="87" symbol="xAA5555"/>
+<entry field="true" id="90" symbol="x00FFFF"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry field="true" id="130" symbol="lastfg"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="21" module="true" symbol="SunMoon"/>
+<entry field="true" id="66" symbol="xAA5500"/>
+<entry field="true" id="71" symbol="xFFFF55"/>
+<entry id="22" module="true" symbol="Menus"/>
+<entry field="true" id="131" symbol="lastbg"/>
+<entry field="true" id="73" symbol="SunColor"/>
+<entry field="true" id="64" symbol="xAA0055"/>
+<entry field="true" id="70" symbol="x00FFAA"/>
+<entry field="true" id="78" symbol="x00AAFF"/>
+<entry id="114" method="true" symbol="moonPhaseFract"/>
+<entry id="109" method="true" symbol="siderealTime"/>
+<entry field="true" id="48" symbol="xFFFF00"/>
+<entry field="true" id="76" symbol="xFF55FF"/>
+<entry field="true" id="44" symbol="xAA0000"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="55" symbol="xFFAA55"/>
+<entry id="113" method="true" symbol="moonCoords"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry field="true" id="54" symbol="x00AAAA"/>
+<entry id="124" method="true" symbol="rightAscension"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="25" symbol="id_suunto_font_130px"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435546" name="dictionary" stackId="1" startPc="268435456"/>
+<entry endPc="268435867" name="settings" stackId="2" startPc="268435550"/>
+<entry endPc="268435868" name="dc" stackId="1" startPc="268435546"/>
+<entry endPc="268435913" name="dictionary" stackId="1" startPc="268435872"/>
+<entry endPc="268435984" name="dc" stackId="1" startPc="268435914"/>
+<entry endPc="268436012" name="state" stackId="1" startPc="268436007"/>
+<entry endPc="268436017" name="state" stackId="1" startPc="268436012"/>
+<entry endPc="268436558" name="oldlat" stackId="3" startPc="268436193"/>
+<entry endPc="268436558" name="oldlon" stackId="4" startPc="268436193"/>
+<entry endPc="268436558" name="activityinfo" stackId="2" startPc="268436193"/>
+<entry endPc="268436558" name="app" stackId="1" startPc="268436193"/>
+<entry endPc="268436848" name="noon" stackId="1" startPc="268436563"/>
+<entry endPc="268436909" name="hour" stackId="1" startPc="268436849"/>
+<entry endPc="268436951" name="dc" stackId="1" startPc="268436909"/>
+<entry endPc="268438154" name="sunrise" stackId="17" startPc="268438008"/>
+<entry endPc="268438339" name="sunset" stackId="18" startPc="268438193"/>
+<entry endPc="268438488" name="sunrise" stackId="19" startPc="268438342"/>
+<entry endPc="268438707" name="activityinfo" stackId="20" startPc="268436960"/>
+<entry endPc="268438707" name="now" stackId="16" startPc="268436960"/>
+<entry endPc="268438707" name="app" stackId="2" startPc="268436960"/>
+<entry endPc="268438707" name="date" stackId="9" startPc="268436960"/>
+<entry endPc="268438707" name="clockTime" stackId="3" startPc="268436960"/>
+<entry endPc="268438707" name="settings" stackId="4" startPc="268436960"/>
+<entry endPc="268438707" name="textMinutes" stackId="5" startPc="268436960"/>
+<entry endPc="268438707" name="stats" stackId="12" startPc="268436960"/>
+<entry endPc="268438707" name="label_minutes" stackId="6" startPc="268436960"/>
+<entry endPc="268438707" name="label_dayofmonth" stackId="11" startPc="268436960"/>
+<entry endPc="268438707" name="label_battery" stackId="13" startPc="268436960"/>
+<entry endPc="268438707" name="label_sun" stackId="15" startPc="268436960"/>
+<entry endPc="268438707" name="label_bluetooth" stackId="14" startPc="268436960"/>
+<entry endPc="268438707" name="label_dayofweek" stackId="10" startPc="268436960"/>
+<entry endPc="268438707" name="label_hour" stackId="7" startPc="268436960"/>
+<entry endPc="268438707" name="label_hr" stackId="21" startPc="268436960"/>
+<entry endPc="268438707" name="label_seconds" stackId="8" startPc="268436960"/>
+<entry endPc="268438708" name="dc" stackId="1" startPc="268436956"/>
+<entry endPc="268439332" name="activityinfo" stackId="4" startPc="268438712"/>
+<entry endPc="268439332" name="clockTime" stackId="3" startPc="268438712"/>
+<entry endPc="268439332" name="app" stackId="2" startPc="268438712"/>
+<entry endPc="268439333" name="dc" stackId="1" startPc="268438708"/>
+<entry endPc="268439395" name="dictionary" stackId="1" startPc="268439348"/>
+<entry endPc="268440578" name="pointX" stackId="12" startPc="268439399"/>
+<entry endPc="268440578" name="fg" stackId="3" startPc="268439399"/>
+<entry endPc="268440578" name="min_hr" stackId="9" startPc="268439399"/>
+<entry endPc="268440578" name="now" stackId="2" startPc="268439399"/>
+<entry endPc="268440578" name="max_hr" stackId="10" startPc="268439399"/>
+<entry endPc="268440578" name="app" stackId="1" startPc="268439399"/>
+<entry endPc="268440578" name="hrIterator" stackId="6" startPc="268439399"/>
+<entry endPc="268440578" name="bg" stackId="4" startPc="268439399"/>
+<entry endPc="268440578" name="lastPointY" stackId="15" startPc="268439399"/>
+<entry endPc="268440578" name="lastPointX" stackId="14" startPc="268439399"/>
+<entry endPc="268440578" name="sample" stackId="11" startPc="268439399"/>
+<entry endPc="268440578" name="scaleY" stackId="8" startPc="268439399"/>
+<entry endPc="268440578" name="scaleX" stackId="7" startPc="268439399"/>
+<entry endPc="268440578" name="dc" stackId="5" startPc="268439399"/>
+<entry endPc="268440578" name="pointY" stackId="13" startPc="268439399"/>
+<entry endPc="268440632" name="dc" stackId="1" startPc="268440579"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_HeartRate_fontHeight" stackId="20" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_Hour" stackId="13" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_Battery" stackId="7" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_HeartRate" stackId="19" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_Seconds" stackId="15" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_Sun" stackId="11" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_custom_drawable_88099613115952599198" stackId="10" startPc="268440644"/>
+<entry endPc="268442460" name="local_Rez_Fonts_id_suunto_font_25px" stackId="2" startPc="268440644"/>
+<entry endPc="268442460" name="local_Rez_Fonts_id_suunto_font_130px" stackId="3" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_DayOfWeek" stackId="16" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_Minutes" stackId="14" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_Battery_fontHeight" stackId="8" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_DayOfMonth" stackId="17" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_custom_drawable_38288275138580808915" stackId="6" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_Sun_fontHeight" stackId="12" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_custom_drawable_67740851591622928013" stackId="18" startPc="268440644"/>
+<entry endPc="268442460" name="local_Rez_Fonts_id_icons_25px" stackId="4" startPc="268440644"/>
+<entry endPc="268442460" name="rez_cmp_local_bitmap_Bluetooth" stackId="9" startPc="268440644"/>
+<entry endPc="268442460" name="local_Rez_Fonts_id_suunto_font_40px" stackId="5" startPc="268440644"/>
+<entry endPc="268442461" name="dc" stackId="1" startPc="268440632"/>
+<entry endPc="268442856" name="n" stackId="7" startPc="268442473"/>
+<entry endPc="268442856" name="ds" stackId="8" startPc="268442473"/>
+<entry endPc="268442856" name="Jrise" stackId="17" startPc="268442473"/>
+<entry endPc="268442856" name="time" stackId="15" startPc="268442473"/>
+<entry endPc="268442856" name="lw" stackId="4" startPc="268442473"/>
+<entry endPc="268442856" name="dec" stackId="11" startPc="268442473"/>
+<entry endPc="268442856" name="i" stackId="13" startPc="268442473"/>
+<entry endPc="268442856" name="Jset" stackId="16" startPc="268442473"/>
+<entry endPc="268442856" name="len" stackId="14" startPc="268442473"/>
+<entry endPc="268442856" name="Jnoon" stackId="12" startPc="268442473"/>
+<entry endPc="268442856" name="phi" stackId="5" startPc="268442473"/>
+<entry endPc="268442856" name="M" stackId="9" startPc="268442473"/>
+<entry endPc="268442856" name="d" stackId="6" startPc="268442473"/>
+<entry endPc="268442856" name="L" stackId="10" startPc="268442473"/>
+<entry endPc="268442856" name="result" stackId="18" startPc="268442473"/>
+<entry endPc="268442857" name="lng" stackId="3" startPc="268442461"/>
+<entry endPc="268442857" name="date" stackId="1" startPc="268442461"/>
+<entry endPc="268442857" name="lat" stackId="2" startPc="268442461"/>
+<entry endPc="268443186" name="A" stackId="9" startPc="268442869"/>
+<entry endPc="268443186" name="H" stackId="8" startPc="268442869"/>
+<entry endPc="268443186" name="phi" stackId="5" startPc="268442869"/>
+<entry endPc="268443186" name="lw" stackId="4" startPc="268442869"/>
+<entry endPc="268443186" name="d" stackId="6" startPc="268442869"/>
+<entry endPc="268443186" name="c" stackId="7" startPc="268442869"/>
+<entry endPc="268443187" name="lng" stackId="3" startPc="268442857"/>
+<entry endPc="268443187" name="date" stackId="1" startPc="268442857"/>
+<entry endPc="268443187" name="lat" stackId="2" startPc="268442857"/>
+<entry endPc="268443288" name="L" stackId="3" startPc="268443199"/>
+<entry endPc="268443288" name="M" stackId="2" startPc="268443199"/>
+<entry endPc="268443289" name="d" stackId="1" startPc="268443187"/>
+<entry endPc="268443326" name="lw" stackId="2" startPc="268443289"/>
+<entry endPc="268443326" name="d" stackId="1" startPc="268443289"/>
+<entry endPc="268443866" name="i" stackId="21" startPc="268443409"/>
+<entry endPc="268443985" name="x2" stackId="18" startPc="268443338"/>
+<entry endPc="268443985" name="x1" stackId="17" startPc="268443338"/>
+<entry endPc="268443985" name="ye" stackId="14" startPc="268443338"/>
+<entry endPc="268443985" name="hc" stackId="5" startPc="268443338"/>
+<entry endPc="268443985" name="d" stackId="15" startPc="268443338"/>
+<entry endPc="268443985" name="h2" stackId="8" startPc="268443338"/>
+<entry endPc="268443985" name="h1" stackId="7" startPc="268443338"/>
+<entry endPc="268443985" name="rise" stackId="9" startPc="268443338"/>
+<entry endPc="268443985" name="b" stackId="12" startPc="268443338"/>
+<entry endPc="268443985" name="h0" stackId="6" startPc="268443338"/>
+<entry endPc="268443985" name="a" stackId="11" startPc="268443338"/>
+<entry endPc="268443985" name="set" stackId="10" startPc="268443338"/>
+<entry endPc="268443985" name="xe" stackId="13" startPc="268443338"/>
+<entry endPc="268443985" name="roots" stackId="16" startPc="268443338"/>
+<entry endPc="268443985" name="t" stackId="4" startPc="268443338"/>
+<entry endPc="268443985" name="result" stackId="20" startPc="268443338"/>
+<entry endPc="268443985" name="dx" stackId="19" startPc="268443338"/>
+<entry endPc="268443986" name="lng" stackId="3" startPc="268443326"/>
+<entry endPc="268443986" name="date" stackId="1" startPc="268443326"/>
+<entry endPc="268443986" name="lat" stackId="2" startPc="268443326"/>
+<entry endPc="268444142" name="H" stackId="8" startPc="268443998"/>
+<entry endPc="268444142" name="h" stackId="9" startPc="268443998"/>
+<entry endPc="268444142" name="phi" stackId="5" startPc="268443998"/>
+<entry endPc="268444142" name="lw" stackId="4" startPc="268443998"/>
+<entry endPc="268444142" name="d" stackId="6" startPc="268443998"/>
+<entry endPc="268444142" name="c" stackId="7" startPc="268443998"/>
+<entry endPc="268444143" name="lng" stackId="3" startPc="268443986"/>
+<entry endPc="268444143" name="date" stackId="1" startPc="268443986"/>
+<entry endPc="268444143" name="lat" stackId="2" startPc="268443986"/>
+<entry endPc="268444203" name="date" stackId="1" startPc="268444143"/>
+<entry endPc="268444203" name="h" stackId="2" startPc="268444143"/>
+<entry endPc="268444428" name="b" stackId="6" startPc="268444215"/>
+<entry endPc="268444428" name="L" stackId="2" startPc="268444215"/>
+<entry endPc="268444428" name="l" stackId="5" startPc="268444215"/>
+<entry endPc="268444428" name="dt" stackId="7" startPc="268444215"/>
+<entry endPc="268444428" name="F" stackId="4" startPc="268444215"/>
+<entry endPc="268444428" name="M" stackId="3" startPc="268444215"/>
+<entry endPc="268444429" name="d" stackId="1" startPc="268444203"/>
+<entry endPc="268445149" name="m" stackId="4" startPc="268444441"/>
+<entry endPc="268445149" name="s" stackId="3" startPc="268444441"/>
+<entry endPc="268445149" name="phi" stackId="6" startPc="268444441"/>
+<entry endPc="268445149" name="sdist" stackId="5" startPc="268444441"/>
+<entry endPc="268445149" name="inc" stackId="7" startPc="268444441"/>
+<entry endPc="268445149" name="angle" stackId="8" startPc="268444441"/>
+<entry endPc="268445149" name="d" stackId="2" startPc="268444441"/>
+<entry endPc="268445150" name="date" stackId="1" startPc="268444429"/>
+<entry endPc="268445501" name="A" stackId="10" startPc="268445162"/>
+<entry endPc="268445501" name="H" stackId="8" startPc="268445162"/>
+<entry endPc="268445501" name="h" stackId="9" startPc="268445162"/>
+<entry endPc="268445501" name="phi" stackId="5" startPc="268445162"/>
+<entry endPc="268445501" name="lw" stackId="4" startPc="268445162"/>
+<entry endPc="268445501" name="d" stackId="6" startPc="268445162"/>
+<entry endPc="268445501" name="c" stackId="7" startPc="268445162"/>
+<entry endPc="268445502" name="lng" stackId="3" startPc="268445150"/>
+<entry endPc="268445502" name="date" stackId="1" startPc="268445150"/>
+<entry endPc="268445502" name="lat" stackId="2" startPc="268445150"/>
+<entry endPc="268445535" name="date" stackId="1" startPc="268445502"/>
+<entry endPc="268445595" name="j" stackId="1" startPc="268445535"/>
+<entry endPc="268445647" name="date" stackId="1" startPc="268445595"/>
+<entry endPc="268445706" name="lw" stackId="2" startPc="268445647"/>
+<entry endPc="268445706" name="d" stackId="1" startPc="268445647"/>
+<entry endPc="268445753" name="Ht" stackId="1" startPc="268445706"/>
+<entry endPc="268445753" name="lw" stackId="2" startPc="268445706"/>
+<entry endPc="268445753" name="n" stackId="3" startPc="268445706"/>
+<entry endPc="268445787" name="d" stackId="1" startPc="268445753"/>
+<entry endPc="268445919" name="P" stackId="3" startPc="268445799"/>
+<entry endPc="268445919" name="C" stackId="2" startPc="268445799"/>
+<entry endPc="268445920" name="M" stackId="1" startPc="268445787"/>
+<entry endPc="268446014" name="b" stackId="2" startPc="268445920"/>
+<entry endPc="268446014" name="l" stackId="1" startPc="268445920"/>
+<entry endPc="268446107" name="b" stackId="2" startPc="268446014"/>
+<entry endPc="268446107" name="l" stackId="1" startPc="268446014"/>
+<entry endPc="268446224" name="H" stackId="1" startPc="268446107"/>
+<entry endPc="268446224" name="phi" stackId="2" startPc="268446107"/>
+<entry endPc="268446224" name="dec" stackId="3" startPc="268446107"/>
+<entry endPc="268446342" name="H" stackId="1" startPc="268446224"/>
+<entry endPc="268446342" name="phi" stackId="2" startPc="268446224"/>
+<entry endPc="268446342" name="dec" stackId="3" startPc="268446224"/>
+<entry endPc="268446418" name="L" stackId="3" startPc="268446342"/>
+<entry endPc="268446418" name="ds" stackId="1" startPc="268446342"/>
+<entry endPc="268446418" name="M" stackId="2" startPc="268446342"/>
+<entry endPc="268446486" name="a" stackId="9" startPc="268446430"/>
+<entry endPc="268446486" name="w" stackId="8" startPc="268446430"/>
+<entry endPc="268446487" name="L" stackId="7" startPc="268446418"/>
+<entry endPc="268446487" name="h" stackId="1" startPc="268446418"/>
+<entry endPc="268446487" name="phi" stackId="3" startPc="268446418"/>
+<entry endPc="268446487" name="lw" stackId="2" startPc="268446418"/>
+<entry endPc="268446487" name="M" stackId="6" startPc="268446418"/>
+<entry endPc="268446487" name="n" stackId="5" startPc="268446418"/>
+<entry endPc="268446487" name="dec" stackId="4" startPc="268446418"/>
+<entry endPc="268446605" name="h" stackId="1" startPc="268446487"/>
+<entry endPc="268446605" name="phi" stackId="2" startPc="268446487"/>
+<entry endPc="268446605" name="d" stackId="3" startPc="268446487"/>
+<entry endPc="268446678" name="h" stackId="1" startPc="268446605"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="NotificationCount">
+<param id="dictionary"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="NotificationCount">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="HiVisDigitalApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="HiVisDigitalApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="HiVisDigitalApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="HiVisDigitalApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSettingsChanged" parent="HiVisDigitalApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="HiVisDigitalView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="updateLocation" parent="HiVisDigitalView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="updateSunTimes" parent="HiVisDigitalView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="shortHour" parent="HiVisDigitalView">
+<param id="hour"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="HiVisDigitalView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="HiVisDigitalView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="HiVisDigitalView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onPartialUpdate" parent="HiVisDigitalView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="HiVisDigitalView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="HiVisDigitalView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="HiVisDigitalView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="HeartRateGraph">
+<param id="dictionary"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="update" parent="HeartRateGraph">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="HeartRateGraph">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="sunriseSet" parent="SunMoon">
+<param id="date"/>
+<param id="lat"/>
+<param id="lng"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="sunPSN" parent="SunMoon">
+<param id="date"/>
+<param id="lat"/>
+<param id="lng"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="sunCoords" parent="SunMoon">
+<param id="d"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="siderealTime" parent="SunMoon">
+<param id="d"/>
+<param id="lw"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="moonriseSet" parent="SunMoon">
+<param id="date"/>
+<param id="lat"/>
+<param id="lng"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getMoonPosition" parent="SunMoon">
+<param id="date"/>
+<param id="lat"/>
+<param id="lng"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="hoursLater" parent="SunMoon">
+<param id="date"/>
+<param id="h"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="moonCoords" parent="SunMoon">
+<param id="d"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="moonPhaseFract" parent="SunMoon">
+<param id="date"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="moonPSN" parent="SunMoon">
+<param id="date"/>
+<param id="lat"/>
+<param id="lng"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toDays" parent="SunMoon">
+<param id="date"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="fromJulian" parent="SunMoon">
+<param id="j"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toJulian" parent="SunMoon">
+<param id="date"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="julianCycle" parent="SunMoon">
+<param id="d"/>
+<param id="lw"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="approxTransit" parent="SunMoon">
+<param id="Ht"/>
+<param id="lw"/>
+<param id="n"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="solarMeanAnomaly" parent="SunMoon">
+<param id="d"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="eclipticLongitude" parent="SunMoon">
+<param id="M"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="declination" parent="SunMoon">
+<param id="l"/>
+<param id="b"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="rightAscension" parent="SunMoon">
+<param id="l"/>
+<param id="b"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="azimuth" parent="SunMoon">
+<param id="H"/>
+<param id="phi"/>
+<param id="dec"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="altitude" parent="SunMoon">
+<param id="H"/>
+<param id="phi"/>
+<param id="dec"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="solarTransitJ" parent="SunMoon">
+<param id="ds"/>
+<param id="M"/>
+<param id="L"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getSetJ" parent="SunMoon">
+<param id="h"/>
+<param id="lw"/>
+<param id="phi"/>
+<param id="dec"/>
+<param id="n"/>
+<param id="M"/>
+<param id="L"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="hourAngle" parent="SunMoon">
+<param id="h"/>
+<param id="phi"/>
+<param id="d"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="astroRefraction" parent="SunMoon">
+<param id="h"/>
+<documentation/>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="151" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="302" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry offset="357" parentId="globals" symbolId="HiVisDigitalApp" type="class"/>
+<dataEntry offset="436" parentId="globals" symbolId="NotificationCount" type="class"/>
+<dataEntry offset="499" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="578" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="617" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="648" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="711" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="742" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="781" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1420" parentId="globals" symbolId="SunMoon" type="module"/>
+<dataEntry offset="1667" parentId="SunMoon" symbolId="Rez" type="module"/>
+<dataEntry offset="1746" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="1777" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="1808" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="1839" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="1870" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1901" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1932" parentId="globals" symbolId="HeartRateGraph" type="class"/>
+<dataEntry offset="2027" parentId="globals" symbolId="HiVisDigitalView" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
