@@ -1,15 +1,15 @@
 <properties>
     <property id="BackgroundColor" type="number">0x000000</property>
-    <property id="BatteryColor" type="number">0xAAAAAA</property>
+    <property id="BatteryColor" type="number">0xFFFFFF</property>
     <property id="BluetoothColor" type="number">0x555555</property>
-    <property id="SunColor" type="number">0xAAAAAA</property>
+    <property id="SunColor" type="number">0xFFFFFF</property>
     <property id="HourColor" type="number">0xFFFFFF</property>
     <property id="MinutesColor" type="number">0xFF0000</property>
     <property id="SecondsColor" type="number">0xFFFFFF</property>
     <property id="DayOfWeekColor" type="number">0xFFFFFF</property>
     <property id="DayOfMonthColor" type="number">0xFFFFFF</property>
-    <property id="HeartRateGraphColor" type="number">0xAAAAAA</property>
-    <property id="HeartRateColor" type="number">0xAAAAAA</property>
+    <property id="HeartRateGraphColor" type="number">0xFFFFFF</property>
+    <property id="HeartRateColor" type="number">0xFFFFFF</property>
     
     <property id="lat" type="float">33.040615</property>
     <property id="lon" type="float">-116.873421</property>

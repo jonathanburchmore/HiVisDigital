@@ -136,17 +136,23 @@ class HiVisDigitalView extends WatchUi.WatchFace {
         if (stats.charging) {
         	label_battery.setText("F");
         }
-        else if (stats.battery > 75) {
+        else if (stats.battery < 10) {
         	label_battery.setText("G");
         }
-        else if (stats.battery > 50) {
+        else if (stats.battery < 30) {
         	label_battery.setText("H");
         }
-        else if (stats.battery > 25) {
+        else if (stats.battery < 50) {
         	label_battery.setText("I");
         }
-        else {
+        else if (stats.battery < 70) {
         	label_battery.setText("J");
+        }
+        else if (stats.battery < 90) {
+        	label_battery.setText("K");
+        }
+        else {
+        	label_battery.setText("L");
         }
         
         // Bluetooth status
