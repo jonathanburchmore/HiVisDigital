@@ -10,4 +10,7 @@
     <property id="DayOfMonthColor" type="number">0xFFFFFF</property>
     <property id="HeartRateGraphColor" type="number">0xAAAAAA</property>
     <property id="HeartRateColor" type="number">0xAAAAAA</property>
+    
+    <property id="lat" type="float">33.040615</property>
+    <property id="lon" type="float">-116.873421</property>
 </properties>
