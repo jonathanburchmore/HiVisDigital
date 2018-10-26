@@ -14,8 +14,9 @@ class HiVisDigitalView extends WatchUi.WatchFace {
 	var since_last_hr;
 	var last_hr;
 	var last_suntimes;
-	var today_suntimes;
-	var tomorrow_suntimes;
+	var today_sunrise;
+	var today_sunset;
+	var tomorrow_sunrise;
 	
     function initialize() {
         WatchFace.initialize();
@@ -65,8 +66,12 @@ class HiVisDigitalView extends WatchUi.WatchFace {
     	}
     	
     	var noon = Time.today().add(new Time.Duration(Gregorian.SECONDS_PER_DAY / 2));
-        today_suntimes = SunMoon.sunriseSet(noon, lat, lon);
-        tomorrow_suntimes = SunMoon.sunriseSet(noon.add(new Time.Duration(Gregorian.SECONDS_PER_DAY)), lat, lon);
+        var today_suntimes = SunMoon.sunriseSet(noon, lat, lon);
+        var tomorrow_suntimes = SunMoon.sunriseSet(noon.add(new Time.Duration(Gregorian.SECONDS_PER_DAY)), lat, lon);
+        
+        today_sunrise = today_suntimes.get("sunrise");
+        today_sunset = today_suntimes.get("sunset");
+        tomorrow_sunrise = tomorrow_suntimes.get("sunset");
 
     	last_suntimes = Time.today();
     }
@@ -161,16 +166,16 @@ class HiVisDigitalView extends WatchUi.WatchFace {
         label_sun.setColor(app.getProperty("SunColor"));
         
         var now = Time.now();
-        if (now.lessThan(today_suntimes.get("sunrise"))) {
-        	var sunrise = Gregorian.info(today_suntimes.get("sunrise"), Time.FORMAT_SHORT);
+        if (now.lessThan(today_sunrise)) {
+        	var sunrise = Gregorian.info(today_sunrise, Time.FORMAT_SHORT);
         	label_sun.setText(Lang.format("( $1$:$2$", [shortHour(sunrise.hour), sunrise.min.format("%02d")]));
         }
-        else if (now.lessThan(today_suntimes.get("sunset"))) { 
-        	var sunset = Gregorian.info(today_suntimes.get("sunset"), Time.FORMAT_SHORT);
+        else if (now.lessThan(today_sunset)) { 
+        	var sunset = Gregorian.info(today_sunset, Time.FORMAT_SHORT);
         	label_sun.setText(Lang.format(") $1$:$2$", [shortHour(sunset.hour), sunset.min.format("%02d")]));
         }
         else {
-        	var sunrise = Gregorian.info(tomorrow_suntimes.get("sunrise"), Time.FORMAT_SHORT);
+        	var sunrise = Gregorian.info(tomorrow_sunrise, Time.FORMAT_SHORT);
         	label_sun.setText(Lang.format("( $1$:$2$", [shortHour(sunrise.hour), sunrise.min.format("%02d")]));
         }
         
