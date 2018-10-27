@@ -9,14 +9,28 @@ using Toybox.Application;
 class HiVisDigitalView extends WatchUi.WatchFace {
     var font_seconds;
     var font_hr;
+
+    var label_minutes;
+    var label_hour;
+    var label_seconds;
+    var label_dayofweek;
+    var label_dayofmonth;
+    var label_battery;
+    var label_bluetooth;
+    var label_sun;
+    var label_hr;
+
     var lat;
     var lon;
+
     var since_last_hr;
     var last_hr;
+
     var last_suntimes;
     var today_sunrise;
     var today_sunset;
     var tomorrow_sunrise;
+
     var visible;
     
     function initialize() {
@@ -92,6 +106,16 @@ class HiVisDigitalView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.WatchFace(dc));
+
+        label_minutes = View.findDrawableById("Minutes");
+        label_hour = View.findDrawableById("Hour");
+        label_seconds = View.findDrawableById("Seconds");
+        label_dayofweek = View.findDrawableById("DayOfWeek");
+        label_dayofmonth = View.findDrawableById("DayOfMonth");
+        label_battery = View.findDrawableById("Battery");
+        label_bluetooth = View.findDrawableById("Bluetooth");
+        label_sun = View.findDrawableById("Sun");
+        label_hr = View.findDrawableById("HeartRate");
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -99,7 +123,6 @@ class HiVisDigitalView extends WatchUi.WatchFace {
     // loading resources into memory.
     function onShow() {
         visible = true;
-        requestUpdate();
     }
 
     // Update the view
@@ -107,7 +130,7 @@ class HiVisDigitalView extends WatchUi.WatchFace {
         if (!visible) {
             return;
         }
-        
+
         var app = Application.getApp();
         
         // Get the current time and format it correctly
@@ -116,31 +139,25 @@ class HiVisDigitalView extends WatchUi.WatchFace {
         
         // Time
         var textMinutes = clockTime.min.format("%02d");
-        var label_minutes = View.findDrawableById("Minutes");
         label_minutes.setColor(app.getProperty("MinutesColor"));
         label_minutes.setText(textMinutes);
         
-        var label_hour = View.findDrawableById("Hour");
         label_hour.setColor(app.getProperty("HourColor"));
         label_hour.setText(shortHour(clockTime.hour).format("%d"));
         label_hour.setLocation(label_minutes.locX - dc.getTextWidthInPixels(textMinutes, WatchUi.loadResource(Rez.Fonts.id_suunto_font_130px)), label_minutes.locY);
         
-        var label_seconds = View.findDrawableById("Seconds");
         label_seconds.setColor(app.getProperty("SecondsColor"));
         label_seconds.setText(clockTime.sec.format("%02d"));
 
         var date = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-        var label_dayofweek = View.findDrawableById("DayOfWeek");
         label_dayofweek.setColor(app.getProperty("DayOfWeekColor"));
         label_dayofweek.setText(date.day_of_week);
 
-        var label_dayofmonth = View.findDrawableById("DayOfMonth");
         label_dayofmonth.setColor(app.getProperty("DayOfMonthColor"));
         label_dayofmonth.setText(date.day.format("%d"));
 
         // Battery level        
         var stats = System.getSystemStats();
-        var label_battery = View.findDrawableById("Battery");
         label_battery.setColor(app.getProperty("BatteryColor"));
         if (stats.charging) {
             label_battery.setText("F");
@@ -159,7 +176,6 @@ class HiVisDigitalView extends WatchUi.WatchFace {
         }
         
         // Bluetooth status
-        var label_bluetooth = View.findDrawableById("Bluetooth");
         label_bluetooth.setColor(app.getProperty("BluetoothColor"));
         if (settings.phoneConnected) {
             label_bluetooth.setText("D");
@@ -171,7 +187,6 @@ class HiVisDigitalView extends WatchUi.WatchFace {
         // Sunrise/Sunset
         updateSunTimes();
 
-        var label_sun = View.findDrawableById("Sun");
         label_sun.setColor(app.getProperty("SunColor"));
         
         var now = Time.now();
@@ -190,7 +205,6 @@ class HiVisDigitalView extends WatchUi.WatchFace {
         
         // Heart rate
         var activityinfo = Activity.getActivityInfo();
-        var label_hr = View.findDrawableById("HeartRate");
         label_hr.setColor(app.getProperty("HeartRateColor"));
         if (activityinfo.currentHeartRate == null) {
             label_hr.setText("");
@@ -203,7 +217,6 @@ class HiVisDigitalView extends WatchUi.WatchFace {
         last_hr = activityinfo.currentHeartRate;
 
         // Call the parent onUpdate function to redraw the layout
-        dc.clearClip();
         View.onUpdate(dc);
     }
 
@@ -233,6 +246,8 @@ class HiVisDigitalView extends WatchUi.WatchFace {
                    dc.drawText(120, 220, font_hr, Lang.format("* $1$", [activityinfo.currentHeartRate]), Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER); 
             }
         }
+
+        dc.clearClip();
     }
     
     // Called when this View is removed from the screen. Save the
