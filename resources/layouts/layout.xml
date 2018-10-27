@@ -3,8 +3,8 @@
     <label id="Battery" x="center" y="15" font="@Fonts.id_icons_25px" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" />
     <label id="Bluetooth" x="55" y="37" font="@Fonts.id_icons_25px" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" />
     <drawable class="NotificationCount">
-    	<param name="locX">179</param>
-    	<param name="locY">37</param>
+        <param name="locX">179</param>
+        <param name="locY">37</param>
     </drawable>
     <label id="Sun" x="center" y="32" font="@Fonts.id_suunto_font_25px" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     <label id="Hour" y="40" font="@Fonts.id_suunto_font_130px" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" />
@@ -13,10 +13,10 @@
     <label id="DayOfWeek" x="216" y="105" font="@Fonts.id_suunto_font_25px" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     <label id="DayOfMonth" x="216" y="127" font="@Fonts.id_suunto_font_25px" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
     <drawable class="HeartRateGraph">
-    	<param name="locX">45</param>
-    	<param name="locY">155</param>
-    	<param name="width">150</param>
-    	<param name="height">51</param>
+        <param name="locX">45</param>
+        <param name="locY">155</param>
+        <param name="width">150</param>
+        <param name="height">51</param>
     </drawable>
     <label id="HeartRate" x="center" y="220" font="@Fonts.id_suunto_font_25px" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" />
 </layout>
